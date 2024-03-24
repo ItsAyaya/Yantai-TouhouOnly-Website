@@ -1,0 +1,560 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	overflow-x: hidden;
+	
+}
+
+a {
+	text-decoration: none;
+	color: initial;
+}
+
+li {
+	list-style-type: none;
+}
+
+.dao_hang_a a:hover{
+	background-color: black;
+	color: wheat;
+	width: 100%;
+	height: 100%;
+}
+
+.dao_hang_b a:hover{
+	background-color: black;
+	color: wheat;
+	width: 100%;
+	height: 100%;
+}
+
+
+@media screen and (min-width: 1920px) {
+
+	.zuo_bian {
+		position: fixed;
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		left: 0;
+
+	}
+
+	.logo img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.tou_di {
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+	}
+
+	.tou_di img {
+		width: 250%;
+		margin-left: -20%;
+		z-index: 1;
+	}
+
+	.zuobian_nei {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 3;
+		overflow: auto;
+	}
+
+
+	.dao_hang_a {
+		width: 100%;
+		height: 50px;
+		font-weight: bold;
+		background-color: black;
+		border-top: 1px solid black;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dao_hang_a a {
+		color: burlywood;
+	}
+
+	.dao_hang_b {
+		width: 100%;
+		height: 50px;
+		font-weight: bold;
+		background-color: burlywood;
+		border-top: 1px solid black;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dao_hang_b a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+	}
+
+	.di_bian {
+		top: 65%;
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+		z-index: 2;
+	}
+
+	.di_bian img {
+		width: 150%;
+	}
+
+
+
+
+	.you_bian {
+		position: absolute;
+		margin-left: 15%;
+		width: 85%;
+	}
+	
+	.shou_ye_jian_bian img{
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-top: 19%;
+		z-index: 2;
+	}
+	
+	
+	.shou_ye_di img {
+		display: block;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	
+	.shou_ye_xiang_xi {
+		display: block;
+		position: absolute;
+		width: 90%;
+		margin-left: 10%;
+		margin-top: 7%;
+		z-index: 3;
+	}
+	.shou_ye_xiang_xi h1 {
+		font-size: 700%;
+	}
+
+	.shou_ye_xiang_xi h2 {
+		margin-top: 1%;
+		font-size: 600%;
+	}
+
+	.shou_ye_xiang_xi p {
+		font-size: 175%;
+		width: 80%;
+		margin-top: 15%;
+	}
+
+	.xiang_qing_di img {
+		position: absolute;
+		width: 100%;
+		margin-top: 58.5%;
+		z-index: 4;
+	}
+
+
+
+	.huo_dong_quan {
+		margin-top: 105%;
+		margin-left: 10%;
+		position: absolute;
+		width: 60%;
+		z-index: 5;
+	}
+
+
+	.huo_dong_xiao_biao_ti {
+		display: inline-block;
+		vertical-align: top;
+		font-size: 150%;
+		line-height: 2;
+	}
+
+	.huo_dong_xiao_nei_rong {
+		display: inline-block;
+		margin-left: 0.5%;
+		font-size: 125%;
+		line-height: 2.4;
+		width: 90%;
+	}
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1920px) and (min-width: 1280px) {
+
+	.zuo_bian {
+		position: fixed;
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		left: 0;
+
+	}
+
+
+
+	.logo img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.tou_di {
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+	}
+
+	.tou_di img {
+		width: 250%;
+		margin-left: -20%;
+		z-index: 1;
+	}
+
+	.zuobian_nei {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: 3;
+		overflow: auto;
+	}
+
+
+	.dao_hang_a {
+		width: 100%;
+		height: 50px;
+		font-weight: bold;
+		background-color: black;
+		border-top: 1px solid black;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dao_hang_a a {
+		color: burlywood;
+	}
+
+	.dao_hang_b {
+		width: 100%;
+		height: 50px;
+		font-weight: bold;
+		background-color: burlywood;
+		border-top: 1px solid black;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.dao_hang_b a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+	}
+
+	.di_bian {
+		top: 65%;
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+		z-index: 2;
+	}
+
+	.di_bian img {
+		width: 150%;
+	}
+
+
+
+
+	.you_bian {
+		position: absolute;
+		margin-left: 15%;
+		width: 85%;
+	}
+	
+	.shou_ye_jian_bian img{
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-top: 19%;
+		z-index: 2;
+	}
+	
+	
+	.shou_ye_di img {
+		display: block;
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+	
+
+	.shou_ye_xiang_xi {
+		display: block;
+		position: absolute;
+		width: 90%;
+		margin-left: 10%;
+		margin-top: 7%;
+		z-index: 3;
+	}
+
+	.shou_ye_xiang_xi h1 {
+		font-size: 550%;
+	}
+
+	.shou_ye_xiang_xi h2 {
+		margin-top: 1%;
+		font-size: 400%;
+	}
+
+	.shou_ye_xiang_xi p {
+		font-size: 125%;
+		width: 80%;
+		margin-top: 15%;
+	}
+
+	.xiang_qing_di img {
+		position: absolute;
+		width: 100%;
+		margin-top: 58.5%;
+		z-index: 4;
+	}
+
+
+
+	.huo_dong_quan {
+		margin-top: 105%;
+		margin-left: 10%;
+		position: absolute;
+		width: 60%;
+		z-index: 5;
+	}
+
+
+	.huo_dong_xiao_biao_ti {
+		display: inline-block;
+		vertical-align: top;
+		font-size: 150%;
+		line-height: 2;
+	}
+
+	.huo_dong_xiao_nei_rong {
+		display: inline-block;
+		margin-left: 0.5%;
+		font-size: 125%;
+		line-height: 2.4;
+		width: 90%;
+	}
+
+}
+
+
+@media screen and (max-width: 1280px) {
+	.zuo_bian {
+		position: fixed;
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		left: 0;
+	
+	}
+	
+	.logo img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	
+	.tou_di {
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+	}
+	
+	.tou_di img {
+		width: 250%;
+		margin-left: -20%;
+		z-index: 1;
+	}
+	
+	.zuobian_nei {
+		width: 100%;
+		height: 70%;
+		position: absolute;
+		z-index: 3;
+		overflow: auto;
+	}
+	
+	
+	.dao_hang_a {
+		width: 100%;
+		height: 50px;
+		font-weight: bold;
+		background-color: black;
+		border-top: 1px solid black;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.dao_hang_a a {
+		color: burlywood;
+	}
+	
+	.dao_hang_b {
+		width: 100%;
+		height: 50px;
+		font-weight: bold;
+		background-color: burlywood;
+		border-top: 1px solid black;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.dao_hang_b a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+	}
+	
+	.di_bian {
+		top: 65%;
+		width: 15%;
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+		z-index: 2;
+	}
+	
+	.di_bian img {
+		width: 150%;
+	}
+	
+	
+	
+	
+	.you_bian {
+		position: absolute;
+		margin-left: 15%;
+		width: 85%;
+	}
+	
+	.shou_ye_jian_bian img{
+		display: block;
+		position: absolute;
+		width: 100%;
+		opacity: 0;
+	}
+	
+	.shou_ye_di img {
+		display: block;
+		position: absolute;
+		width: 100%;
+	}
+	
+	.shou_ye_xiang_xi {
+		position: absolute;
+		width: 90%;
+		height: 1920px;
+		margin-left: 10%;
+		margin-top: 7%;
+	}
+	
+	.shou_ye_xiang_xi h1 {
+		font-size: 400%;
+		width: 90%;
+	}
+	
+	.shou_ye_xiang_xi h2 {
+		margin-top: 15%;
+		font-size: 360%;
+		width: 80%;
+	}
+	
+	.shou_ye_xiang_xi p {
+		font-size: 150%;
+		width: 80%;
+		line-height: 1.5;
+		margin-top: 30%;
+		margin-bottom: 10%;
+	}
+	
+	.xiang_qing_di img {
+		position: absolute;
+		width: 100%;
+		margin-top: 133%;
+	}
+	
+	
+	
+	.huo_dong_quan {
+		margin-top: 180%;
+		margin-left: 10%;
+		position: absolute;
+		width: 60%;
+	}
+	
+	
+	.huo_dong_xiao_biao_ti {
+		display: inline-block;
+		vertical-align: top;
+		font-size: 150%;
+		line-height: 2;
+	}
+	
+	.huo_dong_xiao_nei_rong {
+		display: inline-block;
+		margin-left: 0.5%;
+		font-size: 125%;
+		line-height: 2.4;
+		width: 90%;
+	}
+	
+}
